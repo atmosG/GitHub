@@ -1,0 +1,37 @@
+/* SUMMARY */
+.summary__title {
+    font-size: 34px !important;
+}
+.summary__description {
+    font-size: 22px;
+}
+
+/* FEATURE */
+.tiles .inner li {
+    max-width: calc(100% - 20px);
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* WHERE IS */
+.section--where-is .inner {
+    padding: 80px 20px 0 20px;
+}
+#map {
+    width: auto;
+    margin: 40px -20px 0 -20px;
+}
+
+/* PRICING CARD */
+.section--pricing .card .cell1,
+.section--pricing .card .cell2 {
+    width: calc(100% - 20px);
+    text-align: center;
+}
+
+/* FOOTER */
+.site-links {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}

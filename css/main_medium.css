@@ -1,0 +1,109 @@
+/* MEDIA */
+header.section .inner {
+    max-width: none;
+    height: auto;
+    padding: 0 20px;
+}
+header .menu-group {
+    display: block;
+    width: 100%;
+}
+header .logo {
+    padding: 12px 0;
+}
+header .main-menu {
+    display: block;
+    margin-bottom: 10px;
+}
+header .main-menu li {
+    border-top: 1px solid #e5e5e5;
+}
+header .main-menu li a {
+    padding: 16px 0;
+}
+header .sign-group {
+    display: block;
+    width: 100%;
+    padding: 10px 0 20px;
+}
+header .btn-group .sign-in, 
+header .btn-group .sign-up {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+#search-form {
+    display: block;
+    margin: 0;
+}
+#search {
+    display: block;
+    width: 100%;
+    height: 42px;
+    text-align: center;
+}
+header .sub-menu {
+    justify-content: center;
+    margin: 12px 0;
+}
+header .toggle {
+    display: none;
+}
+header .toggle.on {
+    display: block;
+}
+#toggle-btn {
+    display: block;
+}
+
+/* VISUAL */
+.section--visual {
+    background: url(../img/bg-small.jpg);
+}
+.section--visual .inner {
+    max-width: none;
+    justify-content: center;
+    padding: 80px 20px;
+}
+.section--visual .summary {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-right: 0;
+    flex: none;
+}
+#sign-form {
+    max-width: 500px;
+    width: auto;
+}
+
+/* FEATURE */
+.section--feature .summary {
+    padding: 66px 20px 0 20px;
+}
+.tiles .inner li {
+    max-width: 50%;
+}
+.tiles .inner li:nth-child(2) {
+    border-right: none;
+}
+.tiles .inner li img {
+    padding: 14px 30% 24px;
+}
+
+/* WHERE IS */
+.section--whrer-is .inner {
+    padding: 80px 20px 0 20px;
+}
+.section--pricing .inner {
+    max-width: none;
+    padding: 80px 20px;
+}
+.section--pricing .card .cell2 {
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer .logo {
+    display: none;
+}
